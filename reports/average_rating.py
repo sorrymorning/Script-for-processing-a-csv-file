@@ -1,4 +1,4 @@
-from reports import register_report
+from .report import register_report
 from typing import Dict, Callable, List, Tuple
 from reports.utils import aggregate_brand_ratings 
 
