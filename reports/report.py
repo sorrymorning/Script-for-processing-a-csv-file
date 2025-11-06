@@ -16,8 +16,3 @@ def list_reports():
 
 
 
-# reports/price_by_brand.py  
-# @register_report("price_by_brand")
-# def price_by_brand_report(files: List[str]) -> Tuple[List, List]:
-#     # новый отчёт средней цены по брендам
-#     pass
