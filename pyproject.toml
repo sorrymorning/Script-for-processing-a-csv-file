@@ -4,3 +4,15 @@ python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
 addopts = "-v --tb=short"
+
+[tool.black]
+line-length = 90
+target-version = ['py310']
+# extend-exclude = "folder_to_exclude"  # раскомментируйте если нужно
+
+[tool.isort]
+profile = "black"
+line_length = 90
+multi_line_output = 3
+skip_gitignore = true
+src_paths = ["."]
