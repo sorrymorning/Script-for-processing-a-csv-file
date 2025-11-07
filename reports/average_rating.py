@@ -1,4 +1,4 @@
-from typing import Callable, Dict, List, Tuple
+from typing import List, Tuple
 
 from reports.utils import aggregate_brand_ratings
 

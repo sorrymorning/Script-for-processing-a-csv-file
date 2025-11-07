@@ -1,4 +1,4 @@
-from typing import Callable, Dict, List, Tuple
+from typing import Callable, Dict
 
 _report_registry: Dict[str, Callable] = {}
 
