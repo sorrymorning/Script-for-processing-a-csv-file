@@ -9,7 +9,7 @@ from .report import register_report
 def average_rating_report(files: List[str]) -> Tuple[List, List]:
     brand_ratings = aggregate_brand_ratings(files)
     if not brand_ratings:
-        return [("Error",)], [("Failed to process files",)]
+        return ["Error"], ["Failed to process files"]
 
     data = []
     for brand, ratings in sorted(
